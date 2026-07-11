@@ -112,7 +112,7 @@ body > div {
 .corpo h2 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--accent-hover);
+    color: var(--text-primary);
     margin-bottom: 1rem;
     padding-bottom: 0.75rem;
     border-bottom: 1px solid var(--border);
@@ -124,8 +124,8 @@ body > div {
     font-family: inherit;
     font-size: 0.95rem;
     line-height: 1.8;
-    color: var(--text-secondary);
-    text-align: left;
+    color: var(--text-primary);
+    text-align: justify;
 }
 
 .biografia p {
@@ -151,19 +151,15 @@ body > div {
 
 .redes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 0.75rem;
-    align-items: center;
-}
-
-.redes > div {
-    display: flex;
-    gap: 1rem;
     justify-content: center;
 }
 
 .redes a {
     display: inline-block;
+    padding-bottom: 5px;
     transition: var(--transition);
 }
 
